@@ -1,0 +1,166 @@
+.container {
+    width: 70%;
+    margin: auto;
+    text-align: center;
+  }
+  
+  .player {
+    text-align: center;
+    display: inline-block;
+    margin-right: 35px;
+  
+  }
+  
+  body {
+    background-color: #94b9f5;
+  }
+  
+  h1 {
+    margin: 30px;
+    font-family: 'Sofia', sans-serif;
+    text-shadow: 5px 0 #ff05d5;
+    font-size: 8rem;
+    color: #f1f50a;
+  }
+  
+  p {
+    font-size: 2rem;
+    color: #f1f50a;
+    font-family: 'Sofia', sans-serif;
+  }
+  
+  img {
+    width: 80%;
+    display: none;
+  }
+
+  .dice {
+    height: 100px;
+    width: 100px;
+    background-color: rgba(250, 246, 246, 0.938);
+    border: 2px solid black;
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    border-radius: 15px;
+    margin-bottom: 10px;
+  }
+
+  .dot{
+    height: 20px;
+    width: 20px;
+    background-color: rgb(10, 10, 10);
+    border-radius: 50%;
+    position: absolute;
+  }
+
+  .dice-1 .dot {
+    top: 40px;
+    left: 40px;
+  }
+
+  .dice-2 .dot:nth-child(1) { 
+    top: 15px; left: 15px; 
+  }
+
+  .dice-2 .dot:nth-child(2) { 
+    bottom: 15px; right: 15px; 
+  }
+
+  .dice-3 .dot:nth-child(1) { 
+    top: 15px; left: 15px; 
+  }
+  .dice-3 .dot:nth-child(2) { 
+    top: 40px; left: 40px; 
+  }
+  .dice-3 .dot:nth-child(3) { 
+    bottom: 15px; right: 15px; 
+  }
+
+  .dice-4 .dot:nth-child(1) { 
+    top: 15px; left: 15px; 
+  }
+
+  .dice-4 .dot:nth-child(2) { 
+    top: 15px; right: 15px; 
+  }
+
+  .dice-4 .dot:nth-child(3) { 
+    bottom: 15px; left: 15px; 
+  }
+
+  .dice-4 .dot:nth-child(4) { 
+    bottom: 15px; right: 15px; 
+  }
+
+  .dice-5 .dot:nth-child(1) { 
+    top: 15px; left: 15px; 
+  }
+
+  .dice-5 .dot:nth-child(2) { 
+    top: 15px; right: 15px; 
+  }
+
+  .dice-5 .dot:nth-child(3) { 
+    top: 40px; left: 40px; 
+  }
+
+  .dice-5 .dot:nth-child(4) { 
+    bottom: 15px; left: 15px; 
+  }
+
+  .dice-5 .dot:nth-child(5) { 
+    bottom: 15px; right: 15px; 
+  }
+
+  .dice-6 .dot:nth-child(1) { 
+    top: 15px; left: 15px; 
+  }
+
+  .dice-6 .dot:nth-child(2) { 
+    top: 15px; right: 15px; 
+  }
+
+  .dice-6 .dot:nth-child(3) { 
+    top: 40px; left: 15px; 
+  }
+
+  .dice-6 .dot:nth-child(4) { 
+    top: 40px; right: 15px; 
+  }
+
+  .dice-6 .dot:nth-child(5) { 
+    bottom: 15px; left: 15px; 
+  }
+
+  .dice-6 .dot:nth-child(6) { 
+    bottom: 15px; right: 15px; 
+  }
+
+  .dice-1 {
+    display: none;
+  }
+
+  .dice-2 {
+    display: none;
+  }
+
+  .dice-3 {
+    display: none;
+  }
+
+  .dice-4 {
+    display: none;
+  }
+
+  .dice-5 {
+    display: none;
+  }
+
+  footer {
+    margin-top: 8%;
+    color: #fdfbfb;
+    text-align: center;
+    font-family: 'Trirong', sans-serif;
+  
+  }
